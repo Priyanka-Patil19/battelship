@@ -1,0 +1,272 @@
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    align-items: center;
+    justify-content: center;
+    background-image:url("./images/f19596b91cf8b4b7d65a25f3f40a798f-1000.jpg");
+    cursor: pointer;
+}
+
+header{
+    display: block;
+    width: 90%;
+    margin-top: 10px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10%;
+    text-align: center;
+    font-family: 'Hanalei Fill', cursive;
+}
+
+#instruction{
+    background-color: white;
+    color: rgb(100, 98, 98);
+    width: 60%;
+    height: auto;
+    margin-top: 25px;
+    /* margin-left:300px ; */
+    border: 5px solid rgb(97, 94, 94); 
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Hanalei Fill', cursive;
+}
+
+#startbutton{
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  border: 3px solid black;
+  padding: 5px;
+  /* margin-top: 5px; */
+}
+
+#modalWidht{
+    width: 1000px;
+}
+.container{
+    display: flex;
+    justify-content: center ;
+}
+.grid-user{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(90, 168, 241);
+    margin: 20px;
+}
+
+.grid-input{
+  width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+    margin: 20px;
+}
+
+.grid div{
+    width: 40px;
+    height: 40px;
+    /* background-color: red; */
+}
+
+.grid-computer {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(90, 168, 241);
+    margin: 20px;
+
+}
+
+.grid-display{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(228, 241, 38);
+    margin: 20px;
+
+}
+
+.grid-display-vertical {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    background-color: rgb(228, 241, 38);
+    display: flex;
+  }
+
+.destroyer-container{
+    width: 80px;
+    height: 40px;
+    background-color: orangered;
+    margin: 10px;
+    display: flex;
+}
+.destroyer-container-vertical {
+    width: 40px;
+    height: 80px;
+    background-color: orangered;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.submarine-container{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(33, 6, 77);
+    margin: 10px;
+    display: flex;
+}
+
+.submarine-container-vertical {
+    width: 40px;
+    height: 120px;
+    background-color: rgb(33, 6, 77);
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.cruiser-container{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(0, 255, 13);
+    margin: 10px;
+    display: flex;
+}
+
+.cruiser-container-vertical {
+    width: 40px;
+    height: 120px;
+    background-color: rgb(0, 255, 13);
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.battleship-container{
+    width: 160px;
+    height: 40px;
+    background-color: rgb(118, 121, 122);
+    margin: 10px;
+    display: flex;
+}
+.battleship-container-vertical {
+    width: 40px;
+    height: 160px;
+    background-color: rgb(118, 121, 122);
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.carrier-container{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(238, 36, 130);
+    margin: 10px;
+    display: flex;
+}
+
+.carrier-container-vertical {
+    width: 40px;
+    height: 200px;
+    background-color: rgb(238, 36, 130);
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.destroyer {
+    background-color: orangered;
+  }
+  .submarine {
+    background-color: rgb(33, 6, 77);
+  }
+  .cruiser {
+    background-color: rgb(0, 255, 13);
+  }
+  .battleship {
+    background-color: rgb(118, 121, 122);
+  }
+  .carrier {
+    background-color: rgb(238, 36, 130);
+  }
+  .grid-computer .destroyer {
+    z-index: 2;
+    background-color: rgb(90, 168, 241)
+  }
+  .grid-computer .submarine {
+    z-index: 2;
+    background-color: rgb(90, 168, 241)
+  }
+  .grid-computer .cruiser {
+    z-index: 2;
+    background-color: rgb(90, 168, 241)
+  }
+  .grid-computer .battleship {
+    z-index: 2;
+    background-color: rgb(90, 168, 241)
+  }
+  .grid-computer .carrier {
+    z-index: 2;
+    background-color: rgb(90, 168, 241)
+  }
+
+  .boom {
+    z-index: 1;
+    background-image: url('./images/768px-Explosion-155624_icon.svg.png');
+    background-size: cover;
+  }
+  .miss {
+    z-index: 1;
+    /* background-image: url('./images/f19596b91cf8b4b7d65a25f3f40a798f-1000.jpg');
+    background-size: cover; */
+    background-color: black;
+  }
+.ship div{
+    width: 40px;
+    height: 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
